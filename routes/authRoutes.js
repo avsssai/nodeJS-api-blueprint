@@ -1,6 +1,6 @@
 var express = require("express");
 var User = require("../models/user");
-var { registerValidator,loginValidator } = require("../schemaValidator");
+var { registerValidator,loginValidator } = require("../validators/authValidator");
 var bcrypt = require('bcrypt');
 var router = express.Router();
 

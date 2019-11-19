@@ -36,6 +36,8 @@ const loginValidator = data => {
   return modelSchema.validate(data);
 };
 
+
+
 module.exports.registerValidator = registerValidator;
 
 module.exports.loginValidator = loginValidator;
